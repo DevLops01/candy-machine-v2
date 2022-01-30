@@ -13,12 +13,12 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Degen Ape Gambling Club";
-  const DESCRTIPTION = "777 Degen Ape Gamblers on the Solana Metaverse";
-  const HEADER_TITLE = "Degen Ape Gambling Club";
+  const TITLE = "Poker Faced High Roller Mafia";
+  const DESCRTIPTION = "Poker Faced High Roller Mafia";
+  const HEADER_TITLE = "High Roller Mafia";
   const HEADER_LINK = "";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "./123.png";
+  const IMAGE_LINK = "./hrm.gif";
   /***********************************/
 
   const { solana } = window as any;
