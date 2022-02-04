@@ -240,13 +240,7 @@
           {DESCRTIPTION}
         </div>
         <div class="flex flex-col">
-          {#if !solana}
-            <button
-              class=" px-3 py-2 rounded-md  bg-sky-600  hover:bg-sky-700 text-white font-bold"
-              on:click={() => window.open("https://phantom.app/", "_blank")}
-              >Get Phantom Wallet</button
-            >
-          {:else if !walletPublicKey}
+          {#if !walletPublicKey}
             <button
               class=" px-3 py-2 rounded-md  bg-sky-600  hover:bg-sky-700 text-white font-bold"
               on:click={connectWallet}>Connect</button
